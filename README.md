@@ -15,7 +15,7 @@ $ npm install && bower install
 
 ### Use
 
-I planned this application to have the frontend decoupled from the backend. I deliberately choose to use [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) for this purpose. I know it can be done differently. For example serving static files with the django development server on development and setting a reverse proxy on production (using nginx). But I've been really interested in [microservices](http://martinfowler.com/articles/microservices.html) lately and wanted to give it a try.
+I planned this application to have the frontend decoupled from the backend. I deliberately choose to use [CORS](http://en.wikipedia.org/wiki/Cross-origin_resource_sharing) for this purpose. I know it can be done differently. For example serving static files with the django development server on development and setting a reverse proxy on production (using nginx). But I've been really interested in [microservices](http://martinfowler.com/articles/microservices.html) lately and wanted to give it a try. The [support](http://caniuse.com/cors) is acceptable IMHO.
 
 Said that, to have it fully running you only need to:
 
